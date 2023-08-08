@@ -17,6 +17,7 @@ Now you are able to run the multipose model
 
 ## FUTURE PLANS
 
+The goal right now is the make a tracker that collects keyponts of the bodys mid-foot as well as keypoints of barbell.
 
 1. **Data Collection**: Gather a dataset of images that contain the big circle (plate) on a barbell in various positions and orientations. The dataset should also include corresponding annotations for the center of the circle in each image.
 
