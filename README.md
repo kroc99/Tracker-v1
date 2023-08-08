@@ -15,6 +15,7 @@ Now you are able to run the multipose model
 
 
 
+
 ## FUTURE PLANS
 
 The goal right now is the make a tracker that collects keyponts of the bodys mid-foot as well as keypoints of barbell.
@@ -60,6 +61,17 @@ Building an image recognition and tracking system can be a complex task, so it's
 
 
 The goal is to create a software good enough that we could potentialy sell to gymshark or another big name gym company,
+
+
+
+
+
+## Common Errors:
+
+1.``` "raise ValueError("Trying to load a model of incompatible/unknown type. "
+ValueError: Trying to load a model of incompatible/unknown type. '/var/folders/5s/c0vsyhgs3c3_r0712w6r46r80000gn/T/tfhub_modules/312f001449331ee3d410d758fccdc9945a65dbc3' contains neither 'saved_model.pb' nor 'saved_model.pbtxt'."```
+
+  This is a bug within tensorflow, to fix you have to locate the folder within finder using the go feature, personally my file is located at /private/var/folders/5s/c0vsyhgs3c3_r0712w6r46r80000gn/T/tfhub_modules. It may change depending on machine but delete that folder is key.
 
 
 
