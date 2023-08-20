@@ -48,15 +48,7 @@ The goal right now is the make a tracker that collects keyponts of the bodys mid
   ** Will need Xcode, this will be probably 60% of the learning,
 
 
-Here are some additional tips:
 
-    
-- Consider real-time constraints: If you want the model to perform real-time tracking, ensure that your chosen architecture is efficient enough for fast inference on the target hardware.
-    
-- Regularly update the model: If you are building a tracking system for a dynamic environment (e.g., a gym), consider updating the model periodically with new data to adapt to changes in lighting conditions, backgrounds, and other factors.
-    
-
-Building an image recognition and tracking system can be a complex task, so it's essential to have a good understanding of deep learning, computer vision, and object tracking concepts. Depending on your experience, you might want to seek help from experienced researchers or developers in the field.
 
 
 
